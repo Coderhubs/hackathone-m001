@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+ 
+<!-- <h1> Static Resume by Sumra Jabeen </h1>
+<hr> -->
+
+<header>
+  <div class="header-container">
+      <div class="header-text"> 
+          <h1>Static Interactive Resume Builder by Sumra Jabeen </h1>
+      </div>
+  </div>
+</header>
+
+
+   <div class="resume">
+    <section class= leftpanel>
+        <img  alt="profile" src="R.jpeg"/>
+
+  
+<div class="contact">
+    <h3> <img src="user.png" alt="Icon" class="icon"> Personal Information </h3> <hr>
+</div> 
+
+
+
+<div class="social-links">
+    <h3> <img src="phone-call.png" alt="phone" class="icon"> +923061585490</h3> 
+    <h3> <img src="social.png" alt="linkdin" class="icon"> linkdin/profile/Sumra</h3> 
+    <h3> <img src="email.png" alt="email" class="icon"> simrajabeen16@gmail.com</h3> 
+
+    <hr>
+
+    <button id="click-me" onclick="myFunction()"> Skills </button>
+    <div id="skills">
+    <ul>
+      <li>Team Management</li>
+      <li>Leader Ship</li>
+      <li>Problem Solving</li>
+      <li> Artistic </li>
+      <li> Canva design </li>
+      <li> HTML , CSS , Typescript </li>
+      <li> Next.JS</li>
+
+          </ul>
+  </div>
+<hr>
+  <button id="click-me" onclick="mytoogleFunction()"> Tools </button>
+  <div id="tools">
+  <ul>
+    <li>FIGMA</li>
+    <li>Sketch</li>
+    <li>Shadcn ui</li>
+   
+        </ul>
+</div>
+</div> 
+
+
+    </section>
+        
+    <div class="rightpanel">
+    <div class="name">
+        <h3> Sumra Jabeen </h3>
+      <h4> Front-end Developer</h4>
+
+      <div class="Personal-profile">
+        <h4> Personal Profile </h4>
+        <hr>
+
+       <p> A passionate front-end developer with expertise in HTML, CSS, and Next.js. I am continually learning and improving my skills to create dynamic and user-friendly web applications. I thrive in collaborative environments and enjoy translating complex requirements into functional and appealing designs.</p>
+      </div>
+
+      <div class="work-experience">
+        <h4> Work Experience 
+          <button onclick="showWorkExperience()" id="btn"> 
+            <img id="icon" alt="toggle" src="icons8-expand-arrow-24 (1).png" /> 
+          </button>
+        </h4>
+        <hr>
+        <div id="work-Experience" class="work-experience-details">
+          <h6>GIAIC Student | Feb-2024 (Present) </h6>
+          <p> Developed responsive web applications using HTML, CSS, and TypeScript to enhance user experience.</p>
+        </div>
+      </div>
+      
+      
+        <div class="Education">
+            <h4>Education 
+              <button onclick="myeducation()"  id="btn"> <img id="icon" alt="toogle" src="icons8-expand-arrow-24 (1).png"/> </button>
+            </h4>
+            <hr>
+          <div  id="education-detail" style="display: none;">
+            <h5 class="QA"> Qualification </h5>
+          <ul>
+            
+            
+            <li> Web developer </li>
+            <h6>Governor initiative Artificial Intelligence and cloud computing </h6>
+
+            <li> Bachelors in Business Administration (undergraduate) </li>
+            <h6>Sindh university Thatta Campus  </h6>
+            <li> Intermediate </li>
+            <h6>The Concept School and college system Makli </h6>
+
+            <li> Matriculation </li>
+            <h6>Perfect School and College System Thatta </h6>
+
+
+
+          </ul>
+        </div>
+            </div>
+  
+    
+    </div> 
+
+    </div>
+    
+   </div>
+
+</body>
+<script src="app.js"> </script>
+</html>
